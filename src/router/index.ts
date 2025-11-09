@@ -24,6 +24,17 @@ const router = createRouter({
         ],
       },
     },
+    {
+      path: '/examples/draggable',
+      name: 'Draggable Example',
+      component: () => import('@/views/DraggableExampleView.vue'),
+      meta: {
+        breadcrumbs: [
+          { name: 'Examples', link: '/' },
+          { name: 'Draggable', link: '/examples/draggable' },
+        ],
+      },
+    },
   ],
 })
 

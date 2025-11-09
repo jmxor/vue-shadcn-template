@@ -30,8 +30,8 @@ const data = {
           url: '/About',
         },
         {
-          title: 'Installation',
-          url: '#',
+          title: 'Draggable Example',
+          url: '/examples/draggable',
         },
         {
           title: 'Project Structure',
