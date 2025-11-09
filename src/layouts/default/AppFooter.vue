@@ -5,8 +5,8 @@ type FooterLink = {
 }
 
 const footerLinks: FooterLink[] = [
-  { text: 'Terms and Conditions', url: '/about/terms' },
-  { text: 'Privacy Policy', url: '/about/privacy' },
+  { text: 'Terms and Conditions', url: '#' },
+  { text: 'Privacy Policy', url: '#' },
 ]
 </script>
 
